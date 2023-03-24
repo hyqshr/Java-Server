@@ -1,0 +1,16 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.yiqiu.grpc;
+
+message putRequest {
+  string key = 1;
+  string val = 2;
+}
+
+message putResponse {
+  string responseMsg = 1;
+}
+
+service putService {
+  rpc put(putRequest) returns (putResponse);
+}

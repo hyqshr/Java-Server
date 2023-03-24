@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gRPC-Client/gRPC-Client.iml" filepath="$PROJECT_DIR$/gRPC-Client/gRPC-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gRPC-Server/gRPC-Server.iml" filepath="$PROJECT_DIR$/gRPC-Server/gRPC-Server.iml" />
+    </modules>
+  </component>
+</project>
